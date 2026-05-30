@@ -17,8 +17,6 @@ export const wagmiConfig = createConfig({
   chains: [base],
   connectors: [
     injected({ shimDisconnect: true }),
-    injected({ target: "metaMask", shimDisconnect: true }),
-    injected({ target: "okxWallet", shimDisconnect: true }),
     coinbaseWallet({
       appName: "ChainHeartbeat",
       preference: "all",

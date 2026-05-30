@@ -45,7 +45,13 @@ function isBaseOrCoinbaseBrowser() {
 export function WalletPanel() {
   const [open, setOpen] = useState(false);
   const { address, isConnected, connector } = useAccount();
-  const { connect, connectors, isPending, variables, error } = useConnect();
+  const { connect, connectors, isPending, variables, error } = useConnect({
+    mutation: {
+      onError(connectError) {
+        console.error(connectError);
+      },
+    },
+  });
   const { disconnect } = useDisconnect();
 
   const uniqueConnectors = useMemo(() => {
@@ -117,7 +123,12 @@ export function WalletPanel() {
               </button>
             ))
           )}
-          {error ? <p className="walletError">{error.message}</p> : null}
+          {error ? (
+            <p className="walletError">
+              Wallet provider not found. Open this page inside that wallet browser or enable the
+              wallet extension, then try again.
+            </p>
+          ) : null}
         </div>
       ) : null}
     </div>

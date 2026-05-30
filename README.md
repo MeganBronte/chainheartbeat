@@ -8,9 +8,16 @@ calls the deployed `heartbeat()` contract function and only requires Base gas.
 
 - Next.js App Router
 - TypeScript
-- Wagmi
+- Wagmi with native injected wallet discovery
 - Viem
 - Base mainnet
+
+## Wallets
+
+- `injected()` for Base App, MetaMask, OKX, and other injected wallets
+- `coinbaseWallet()` for external Coinbase Wallet
+- No RainbowKit
+- No WalletConnect connector
 
 ## Contract
 
