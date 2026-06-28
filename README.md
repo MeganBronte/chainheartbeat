@@ -107,3 +107,11 @@ npm run dev
 Open the local development URL shown in your terminal.
 
 ## Checks
+
+Run linting:
+
+```bash
+npm run lint
+```
+
+Create a production build:
