@@ -115,3 +115,11 @@ npm run lint
 ```
 
 Create a production build:
+
+```bash
+npm run build
+```
+
+## Usage
+
+1. Open the app.
