@@ -35,3 +35,9 @@ The app is designed to be lightweight and direct:
 - Next.js App Router
 - TypeScript
 - Wagmi
+- Viem
+- Base mainnet
+
+## Wallet Support
+
+The app uses Wagmi connectors for wallet access.
