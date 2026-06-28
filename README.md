@@ -93,3 +93,11 @@ After updating both attribution values, redeploy the app.
 ## Local Development
 
 Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
