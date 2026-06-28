@@ -130,3 +130,11 @@ npm run build
 6. Wait for the transaction to complete.
 
 ## Deployment Notes
+
+The project can be deployed to Vercel as a standard Next.js application.
+
+Before deploying, confirm that:
+
+- The contract address is correct.
+- Base attribution values have been filled in if needed.
+- The app builds successfully with `npm run build`.
