@@ -41,3 +41,10 @@ The app is designed to be lightweight and direct:
 ## Wallet Support
 
 The app uses Wagmi connectors for wallet access.
+
+Supported connector setup:
+
+- `injected()` for Base App, MetaMask, OKX, and other injected wallets
+- `coinbaseWallet()` for external Coinbase Wallet
+
+The app does not use:
