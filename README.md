@@ -79,3 +79,9 @@ Find the `base:app_id` meta tag and fill in the content value provided by base.d
 Edit:
 
 `lib/wagmi.ts`
+
+Fill `BUILDER_CODE` with the Builder Code from base.dev.
+
+Example format:
+
+`bc_abcd1234`
