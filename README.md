@@ -63,3 +63,11 @@ The frontend calls the contract's `heartbeat()` function when a user records a h
 ## Attribution Setup
 
 The app is prepared for base.dev attribution in two places.
+
+### Offchain Attribution
+
+Edit:
+
+`app/layout.tsx`
+
+Find the `base:app_id` meta tag and fill in the content value provided by base.dev:
