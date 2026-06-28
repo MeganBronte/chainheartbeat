@@ -48,3 +48,12 @@ Supported connector setup:
 - `coinbaseWallet()` for external Coinbase Wallet
 
 The app does not use:
+
+- RainbowKit
+- WalletConnect connector
+
+## Contract
+
+The heartbeat contract is deployed at:
+
+`0xFaed9B9BE7765Fa1d4ef80a0420522C956D3CBDE`
