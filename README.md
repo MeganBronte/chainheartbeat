@@ -27,3 +27,11 @@ The app is designed to be lightweight and direct:
 - Base mainnet support
 - Native injected wallet discovery
 - External Coinbase Wallet support
+- Type-safe frontend code with TypeScript
+- Next.js App Router structure
+
+## Stack
+
+- Next.js App Router
+- TypeScript
+- Wagmi
