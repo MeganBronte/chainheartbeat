@@ -138,3 +138,10 @@ Before deploying, confirm that:
 - The contract address is correct.
 - Base attribution values have been filled in if needed.
 - The app builds successfully with `npm run build`.
+- Wallet connection behavior has been tested on Base mainnet.
+
+## Project Notes
+
+ChainHeartbeat is intentionally small and focused.
+
+Its main purpose is to provide a clear Base mini app flow for recording onchain heartbeats through a deployed contract.
