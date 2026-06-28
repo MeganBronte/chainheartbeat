@@ -19,3 +19,11 @@ The app is designed to be lightweight and direct:
 - View the result in the app interface.
 
 ## Features
+
+- Base mini app experience
+- Onchain heartbeat recording
+- Direct calls to the deployed `heartbeat()` function
+- No platform fee
+- Base mainnet support
+- Native injected wallet discovery
+- External Coinbase Wallet support
