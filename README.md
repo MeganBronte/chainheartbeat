@@ -85,3 +85,11 @@ Fill `BUILDER_CODE` with the Builder Code from base.dev.
 Example format:
 
 `bc_abcd1234`
+
+The `builderDataSuffix` value is configured in Wagmi and is also passed explicitly to `writeContract`.
+
+After updating both attribution values, redeploy the app.
+
+## Local Development
+
+Install dependencies:
