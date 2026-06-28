@@ -71,3 +71,11 @@ Edit:
 `app/layout.tsx`
 
 Find the `base:app_id` meta tag and fill in the content value provided by base.dev:
+
+`<meta name="base:app_id" content="" />`
+
+### Onchain Attribution
+
+Edit:
+
+`lib/wagmi.ts`
