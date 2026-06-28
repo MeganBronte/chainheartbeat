@@ -123,3 +123,10 @@ npm run build
 ## Usage
 
 1. Open the app.
+2. Connect a supported wallet.
+3. Make sure the wallet is using Base mainnet.
+4. Press the heartbeat action in the interface.
+5. Confirm the transaction in your wallet.
+6. Wait for the transaction to complete.
+
+## Deployment Notes
