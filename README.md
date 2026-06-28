@@ -12,3 +12,10 @@ Repository: https://github.com/MeganBronte/chainheartbeat.git
 ChainHeartbeat provides a simple interface for connecting a wallet on Base and sending a heartbeat transaction.
 
 The app is designed to be lightweight and direct:
+
+- Connect a supported wallet.
+- Submit a heartbeat.
+- Confirm the transaction on Base.
+- View the result in the app interface.
+
+## Features
